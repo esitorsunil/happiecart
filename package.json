@@ -1,0 +1,22 @@
+{
+  "name": "happiecart",
+  "version": "1.0.0",
+  "description": "ecommerce using MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "dev": "set NODE_ENV=development && nodemon backend/server.js",
+    "prod": "set NODE_ENV=production && nodemon backend/server.js"
+  },
+  "author": "sunil",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
